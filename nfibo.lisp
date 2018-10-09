@@ -1,3 +1,4 @@
+;Program to find the nth Fibonacci Term (1st term being 0 and 2nd term being 1) using both recursive and iterative methods.
 (defun nfibr(n)
  
  
