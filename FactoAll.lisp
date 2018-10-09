@@ -1,3 +1,4 @@
+;Program to find the factorial of a number recursively
 (defun factor(n)
   (if (= n 0)
       1
