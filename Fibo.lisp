@@ -1,3 +1,4 @@
+;Program which generates the Fibonacci series (considering 0 as 1st element and 1 as 2nd element)
 (defvar a)(defvar b)(defvar c)
 (defun fib(x)       
 	     
