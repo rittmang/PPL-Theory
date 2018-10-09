@@ -1,25 +1,3 @@
-(defun factoi(n)
-	(if (= n 0)
-		;(format t "The factorial of number ~d is ~2d" n 1)
-		
-		1
-	)
-	(if (< n 0)
-	
-		(write "WRONG")
-		nil
-	
-	)	
-	(
-		let ((f 1))
-    	(loop for i from 1 to n
-           		do(setf f (* f i)))
-    	;(format t "The factorial of number ~d is ~2d" n f) 
-    	
-    	f
-    )
-)
-
 (defun factor(n)
   (if (= n 0)
       1
@@ -42,7 +20,7 @@
 (setq choice (read))
 
 (case choice 
-	(1 (format t "~D! (Iterative) = ~D~%" n (factoi n)))
+	(1 (format t "Iterative not included"))
 	(2 (format t "~D! (Recursive) = ~D~%" n (factor n)))
 )
 
